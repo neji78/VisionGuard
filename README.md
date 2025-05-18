@@ -32,7 +32,7 @@ Response:
 }
 ```
 
-##🧪 Running Tests
+## 🧪 Running Tests
 
 A simple test script is provided to verify the API functionality using a sample image.
 ```
@@ -40,7 +40,7 @@ python test_detect.py
 ```
 Make sure the API is running before executing the test.
 
-##🛠️ Installation
+## 🛠️ Installation
 
   1.Clone the repository
   ```
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-##📁 Project Structure
+## 📁 Project Structure
 
 ```
 .
