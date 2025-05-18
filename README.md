@@ -31,6 +31,14 @@ Response:
   ]
 }
 ```
+
+🧪 Running Tests
+A simple test script is provided to verify the API functionality using a sample image.
+```
+python test_detect.py
+```
+Make sure the API is running before executing the test.
+
 🛠️ Installation
   1.Clone the repository
   ```
