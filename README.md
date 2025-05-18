@@ -32,7 +32,7 @@ Response:
 }
 ```
 
-🧪 Running Tests
+##🧪 Running Tests
 
 A simple test script is provided to verify the API functionality using a sample image.
 ```
@@ -40,7 +40,8 @@ python test_detect.py
 ```
 Make sure the API is running before executing the test.
 
-🛠️ Installation
+##🛠️ Installation
+
   1.Clone the repository
   ```
 git clone https://github.com/neji78/object_detection_service.git
@@ -60,7 +61,8 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-📁 Project Structure
+##📁 Project Structure
+
 ```
 .
 ├── main.py               # FastAPI app
