@@ -1,4 +1,4 @@
-import requests
+import test_case
 import cv2
 
 # Load image with OpenCV
@@ -10,7 +10,7 @@ _, img_encoded = cv2.imencode('.jpg', image)
 files = {'image': ('test.jpg', img_encoded.tobytes(), 'image/jpeg')}
 
 # Send POST request to Flask server
-response = requests.post('http://localhost:5000/detect', files=files)
+response = test_case.post('http://localhost:5000/detect', files=files)
 
 # Parse response
 detections = response.json()
